@@ -32,6 +32,7 @@
 		FE0894E1255C759C00BBF58D /* Book.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Book.hpp; sourceTree = "<group>"; };
 		FE0894E5255C75A900BBF58D /* Repo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Repo.cpp; sourceTree = "<group>"; };
 		FE0894E6255C75A900BBF58D /* Repo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Repo.hpp; sourceTree = "<group>"; };
+		FE0894EA255C9D2300BBF58D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 				FE0894DE255C756B00BBF58D /* BookType.h */,
 				FE0894E0255C759C00BBF58D /* Book.cpp */,
 				FE0894E5255C75A900BBF58D /* Repo.cpp */,
+				FE0894EA255C9D2300BBF58D /* README.md */,
 				FE0894E6255C75A900BBF58D /* Repo.hpp */,
 				FE0894E1255C759C00BBF58D /* Book.hpp */,
 			);
