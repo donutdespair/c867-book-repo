@@ -12,6 +12,6 @@
 enum BookType {UNDECIDED, FICTION, NONFICTION};
 
 /*Parralell array pops out a string for each book type; use book type as an index*/
-static const std::string bookTypeStrings[] = {UNDECIDED, FICTION, NONFICTION};
+static const std::string bookTypeStrings[] = {"UNDECIDED", "FICTION", "NONFICTION"};
 
 #endif /* BookType_h */

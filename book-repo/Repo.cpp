@@ -83,7 +83,13 @@ void Repo::printInvalidIDs()
     for (int i = 0; i <= Repo::lastIndex; i++)
     {
         string bID = (bookRepoArray[i]->getID());
+        if (bID.find('_') == string::npos || (bID.find('x') == string::npos && bID.find('X') == string::npos ))
+        {
+            any = true;
+            cout << bID << ":" << bookRepoArray[i]->getTitle() << std::endl;
+        }
     }
+    if (!any) cout << "NONE" << std::endl;
 }
 
 
