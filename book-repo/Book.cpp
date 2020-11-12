@@ -57,5 +57,5 @@ void Book::print()
     cout << this->getPrices()[0] << ',';//grab prices individually instead of pointer
     cout << this->getPrices()[1] << ',';//comma delimeter
     cout << this->getPrices()[2] << ',';
-    cout << bookTypeStrings[this->getBookType()] << '\n'//bookType to string; is an int but uses BookType.h for string
+    cout << bookTypeStrings[this->getBookType()] << '\n';//bookType to string; is an int but uses BookType.h for string
 }

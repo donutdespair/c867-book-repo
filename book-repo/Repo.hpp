@@ -12,10 +12,10 @@
 
 class Repo
 {
-private:
+public:
     int lastIndex = -1;
     const static int numBooks = 5;
-    Book* bookRepoArray[numBooks]; //not decalred dynamically
+    Book* books[numBooks]; //not decalred dynamically
     
 public:
     //parse method parses set of comma delimted strings and extracts data
@@ -32,8 +32,8 @@ public:
     void printAll();//calls print() for each book
     void printByBookType(BookType bt);//book type passed in, print by book type
     void printInvalidIDs();//each id needs an underscore and either an uppercase "X" or lowercase "x"
-    void printAveragePrices();//prints average price for each book
-    void removeBookByID(string bookID);//find book and remove
+    void printAveragePrices(string bookID);//prints average price for each book
+    bool removeBookByID(string bookID);//find book and remove
     ~Repo();//destructor
     //if you don't write a constructor, c++ provides and sets all instances to 0
 };
